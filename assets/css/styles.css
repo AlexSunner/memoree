@@ -3,11 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #f2f2f2;
+}
+
+.heading {
+    max-width: 480px;
+    border: 2px solid #a6a6a6;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.score {
+    margin-top: 10px;
+    
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
 .game-area {
     max-width: 960px;
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 1rem;
+    margin: auto;
+    padding: 20px;
 }
 
 .card {
@@ -26,6 +56,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f2f2f2;
+}
+
+.back-card {
+    background-color: cornsilk;
 }
 
 img {
