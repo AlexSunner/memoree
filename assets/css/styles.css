@@ -22,7 +22,7 @@ body {
 
 .score {
     margin-top: 10px;
-    
+    font-size: 30px;
 }
 
 .game-info {
@@ -42,10 +42,12 @@ body {
 
 .card {
     position: relative;
+    cursor: pointer;
 }
 
 .card div {
     height: 130px;
+    border-radius: 4px;
 }
 
 .front-card {
@@ -57,6 +59,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
+    transform: rotateY(90deg);
 }
 
 .back-card {
@@ -66,4 +69,8 @@ body {
 img {
     height: 100px;
     width: 100px;
+}
+
+.flip {
+    transform: rotateY(0deg);
 }
