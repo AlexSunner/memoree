@@ -3,14 +3,17 @@ let frontCard = document.querySelectorAll('.front-card');
 let gameArea = document.querySelectorAll('.game-area');
 let score = document.querySelectorAll('.score');
 
-suffleImage();
+shuffleImage();
 clicking();
-function suffleImage() {
-    card.forEach(c=> {
+function shuffleImage() {
         const num = [...Array(card.length).keys()];
-        const random = Math.floor(Math.random()*card.length);
-        c.style.order = num[random];
-    })
+        for (let i = num.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [num[i], num[j]] = [num[j], num[i]];
+        }
+        card.forEach((c, index) => {
+            c.style.order = num[index];
+        });
 };
 
 function clicking() {
