@@ -2,6 +2,7 @@ let card = document.querySelectorAll('.card');
 let frontCard = document.querySelectorAll('.front-card');
 let gameArea = document.querySelector('.game-area');
 let score = document.querySelector('.score span');
+let restartButton = document.querySelector('.restart')
 
 shuffleImage();
 clicking();
@@ -60,3 +61,13 @@ function match(cardOne, cardTwo) {
         }, 1000);
     }
 };
+
+restartButton.addEventListener('click', restartGame);
+
+function restartGame() {
+    score.innerHTML = '0';
+    card.forEach(c => {
+        c.querySelector('.front-card').classList.remove('flip', 'match');
+    });
+    shuffleImage();
+}
