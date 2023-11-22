@@ -14,7 +14,7 @@ clicking();
 function shuffleImage() {
     console.log(card);
         const num = [...Array(card.length).keys()];
-        console.log('Before shuffle:', num);
+        console.log('Before Shuffle:', num);
         for (let i = num.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [num[i], num[j]] = [num[j], num[i]];
