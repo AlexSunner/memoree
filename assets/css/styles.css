@@ -31,6 +31,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+.creditpage {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
 
 .restart {
     padding: 10px 20px;
