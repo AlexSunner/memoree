@@ -1,3 +1,4 @@
+/* General CSS styles */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 body {
     background-color: #f2f2f2;
 }
-
+/* Heading styles taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 */
 .heading {
     max-width: 480px;
     border: 2px solid #a6a6a6;
@@ -42,6 +43,7 @@ body {
     padding: 10px;
 }
 
+/* Game area and cards CSS styling taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 */
 .game-area {
     max-width: 960px;
     display: grid;
@@ -94,6 +96,7 @@ img {
     transform: rotateY(0deg);
 }
 
+/* Media query for responsiveness, also taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 */
 @media screen and (min-width:770px) {
     .heading {
         max-width: 760px;

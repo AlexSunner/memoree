@@ -8,7 +8,9 @@ let restartButton = document.querySelector('.restart');
 shuffleImage();
 clicking();
 
-/* A shuffle function that randomizes the position of the cards */
+/* A shuffle function that randomizes the position of the cards
+The idea was taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 
+*/
 function shuffleImage() {
     console.log(card);
         const num = [...Array(card.length).keys()];
@@ -26,6 +28,8 @@ function shuffleImage() {
 
 /* This is the function that flips the card over when clicked,
 * No more than two cards can be clicked and the cards are being shown for 2000 milliseconds.
+* The idea of the function was taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8
+* However I added some changes
 */
 function clicking() {
     for (let i = 0; i < card.length; i++) {
@@ -51,7 +55,8 @@ function clicking() {
  
 /* This is the matching function. If the two cards clicked is not a match,
  the cards are being flipped back over.
- If they are a match, they remain open. */
+ If they are a match, they remain open.
+ Basic structure of the code was taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 */
 function match(cardOne, cardTwo) {
     if (cardOne.dataset.index === cardTwo.dataset.index) {
 
