@@ -9,7 +9,7 @@ shuffleImage();
 clicking();
 
 /* A shuffle function that randomizes the position of the cards
-The idea was taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 
+* The idea was taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 
 */
 function shuffleImage() {
     console.log(card);
@@ -54,9 +54,10 @@ function clicking() {
 }
  
 /* This is the matching function. If the two cards clicked is not a match,
- the cards are being flipped back over.
- If they are a match, they remain open.
- Basic structure of the code was taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 */
+ * the cards are being flipped back over.
+ * If they are a match, they remain open.
+ * Basic structure of the code was taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 
+ * */
 function match(cardOne, cardTwo) {
     if (cardOne.dataset.index === cardTwo.dataset.index) {
 
@@ -76,7 +77,8 @@ function match(cardOne, cardTwo) {
 }
 
 /* This is the event listener (clicking event) for the restart button
- And also a function that makes the game restart when clicked */
+* And also a function that makes the game restart when clicked 
+*/
 restartButton.addEventListener('click', restartGame);
 function restartGame() {
     score.innerHTML = '0';
