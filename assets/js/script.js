@@ -12,7 +12,6 @@ clicking();
 * The idea was taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 
 */
 function shuffleImage() {
-    console.log(card);
         const num = [...Array(card.length).keys()];
         for (let i = num.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
