@@ -4,6 +4,7 @@ let frontCard = document.querySelectorAll('.front-card');
 let gameArea = document.querySelector('.game-area');
 let score = document.querySelector('.score span');
 let restartButton = document.querySelector('.restart');
+let restartButtonInPopup = document.querySelector('#popup .restart');
 
 shuffleImage();
 clicking();
@@ -64,6 +65,10 @@ function match(cardOne, cardTwo) {
 
         cardOne.classList.add('match');
         cardTwo.classList.add('match');
+
+        if (parseInt(score.innerHTML) === 6) {
+            showPopup();
+        }
     } else {
         setTimeout(() => {
             cardOne.classList.remove('flip');
@@ -75,6 +80,7 @@ function match(cardOne, cardTwo) {
 /* This is the event listener (clicking event) for the restart button
 * And also a function that makes the game restart when clicked 
 */
+restartButtonInPopup.addEventListener('click', restartGame);
 restartButton.addEventListener('click', restartGame);
 function restartGame() {
     score.innerHTML = '0';
@@ -82,4 +88,15 @@ function restartGame() {
         c.querySelector('.front-card').classList.remove('flip', 'match');
     });
     shuffleImage();
+    hidePopup();
+}
+
+function showPopup() {
+    document.getElementById('popup').style.display = 'flex';
+    gameArea.style.pointerEvents = 'none';
+}
+
+function hidePopup() {
+    document.getElementById('popup').style.display = 'none';
+    gameArea.style.pointerEvents = 'all';
 }
