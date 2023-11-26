@@ -8,6 +8,7 @@
 body {
     background-color: #f2f2f2;
     font-family: 'Permanent Marker', cursive;
+    background-image: url(../images/background.png);
 }
 /* Heading styles taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 */
 .heading {
@@ -23,12 +24,15 @@ body {
 }
 h1 {
     font-family: 'Architects Daughter', cursive;
-    font-size: 40px;
+    font-size: 45px;
+    color: lightskyblue;
+    padding-top: 10px;
 }
 
 .score {
     margin-top: 10px;
     font-size: 30px;
+    padding-bottom: 10px;
 }
 
 .button-container {
@@ -45,8 +49,8 @@ h1 {
 .game-info {
     display: flex;
     justify-content: center;
-    padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 /* Game area and cards CSS styling taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 */
