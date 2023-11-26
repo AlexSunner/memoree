@@ -7,7 +7,7 @@
 
 body {
     background-color: #f2f2f2;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Montserrat', sans-serif;
     background-image: url(../images/background.png);
 }
 /* Heading styles taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 */
@@ -25,7 +25,7 @@ body {
 h1 {
     font-family: 'Architects Daughter', cursive;
     font-size: 45px;
-    color: lightskyblue;
+    color: #000000;
     padding-top: 10px;
 }
 
@@ -86,7 +86,7 @@ h1 {
 }
 
 .back-card {
-    background-color: cornsilk;
+    background-color: lightblue;
 }
 
 img {
