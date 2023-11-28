@@ -1,39 +1,40 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Memoree
 
-Welcome,
+Memoree is an engaging memory card game that challenges players to match pairs of cards depicting animals. With a delightful interface and an exciting shuffle mechanic, players aim to test and enhance their memory skills. Celebrate victories and restart the fun with a popup message and a simple "Restart Game" button when you conquer the challenge!
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The live link can be found here - <https://alexsunner.github.io/memoree/>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Planning
 
-## Codeanywhere Reminders
+### Before creating this project I made a wireframe, visualizing the final product beforehand
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- I wanted the game to be fully responsive for different devices, ensuring an optimal and enjoyable experience whether played on a desktop, tablet, or mobile device.
+- I wanted to have kids-friendly cards, featuring adorable animals that would engage young players and create a family-friendly gaming environment.
+- I wanted to have a clean popup message when the game finishes, displaying a simple and congratulatory message like "Congratulations! You won!" to enhance the overall user experience.
 
-`python3 -m http.server`
+![Wireframe](https://github.com/AlexSunner/memoree/blob/main/assets/readmephotos/wireframe.jpg?raw=true)
+![Responsive Mockup](https://github.com/AlexSunner/memoree/blob/main/assets/readmephotos/memoreeresponsive.jpg?raw=true)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Here is a presentation of the different features added into Memoree.
 
-`http_server`
+- __Scoreboard__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The Memoree scoreboard not only tracks your score but also displays the guiding message "Pick two cards and see if they match!" It enhances the gaming experience, providing a visual snapshot of your progress and encouraging improved memory skills.
+![Scoreboard](https://github.com/AlexSunner/memoree/blob/main/assets/readmephotos/scoreboard.jpg?raw=true)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __Game Area__
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The Memoree game area with vibrant, kid-friendly cards create an engaging environment. This visually appealing section invites players to explore, offering a delightful experience as they match pairs and sharpen their memory skills.
+![Game Area](https://github.com/AlexSunner/memoree/blob/main/assets/readmephotos/opencards.jpg?raw=true)
 
-To log into the Heroku toolbelt CLI:
+- __Restart Button__
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - The "Restart Game" button provides a quick and convenient way to reset the game, allowing players to embark on a new memory challenge with just a click. Simple yet essential, this button ensures a seamless and enjoyable gaming experience.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Restart Button](https://github.com/AlexSunner/memoree/blob/main/assets/readmephotos/restartbutton.jpg?raw=true)
 
----
-
-Happy coding!
+- __Popup Window__
+  
+  - The popup window elegantly announces the end of the game with a congratulatory message, creating a delightful moment of victory for the players. Its clean design enhances the overall gaming experience, providing a visually appealing way to celebrate success.
