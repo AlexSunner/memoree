@@ -63,9 +63,13 @@ Here is a presentation of the different features added into Memoree.
 ## User Stories
 
 1. As a parent, I want the game to feature kid-friendly card designs, ensuring a safe and engaging environment for my children.
+   - I prioritized incorporating kid-friendly card designs in the game, creating a safe and enjoyable experience for the younger crowd.
 2. As a gamer, I anticipate a well-designed scoreboard with the additional instruction "Pick two cards and see if they match!" for clarity and guidance during gameplay.
+   - I implemented a well-designed scoreboard that includes the instructive text "Pick two cards and see if they match!" for clear guidance and an enchanced gaming experience.
 3. As a developer, I aim to test the game thoroughly to ensure flawless mechanics, including scoring, card matching, popup messages, and the restart button functionality.
+   - I focused on thorough testing to ensure flawless mechanics, covering aspects such as scoring, card matching, popup messages, and the restart button functionality.
 4. As a player, I want to experience a responsive and visually appealing memory game, allowing me to enjoy seamless gameplay on various devices.
+   - I strived to deliver a responsive and visually appealing memory game, allowing for an immersive and enjoyable gaming experience across a variety of devices.
 
 ## Deployment
 
@@ -99,7 +103,7 @@ Cloning your repository will allow you to download a local version of the reposi
 
 ### HTML
 
-- I used HTML to create the basic content of the project.
+- I used HTML to create the fundamental structure of the project.
 
 ### CSS
 
@@ -107,7 +111,7 @@ Cloning your repository will allow you to download a local version of the reposi
 
 ### JavaScript
 
-- I used JavaScript to create the game mechanics, including shuffling cards, handling user interactions, and managing the game's logic. Additionally, it facilitated dynamic content updates, such as score tracking and displaying a popup when the game finishes.
+- I used JavaScript to create the interactive features like card flipping, matching, and scoring, creating a dynamic and engaging user experience.
 
 ### Google Fonts
 
