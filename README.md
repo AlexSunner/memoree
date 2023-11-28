@@ -39,6 +39,8 @@ Here is a presentation of the different features added into Memoree.
   
   - The popup window elegantly announces the end of the game with a congratulatory message, creating a delightful moment of victory for the players. Its clean design enhances the overall gaming experience, providing a visually appealing way to celebrate success.
 
+![Popup window](https://github.com/AlexSunner/memoree/blob/main/assets/readmephotos/popupmessage.jpg?raw=true)
+
 ## Testing
 
 - Testing Memoree's mechanics involved meticulous evaluation of the scoring system, ensuring accurate tracking and display of points.
