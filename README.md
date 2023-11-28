@@ -38,3 +38,24 @@ Here is a presentation of the different features added into Memoree.
 - __Popup Window__
   
   - The popup window elegantly announces the end of the game with a congratulatory message, creating a delightful moment of victory for the players. Its clean design enhances the overall gaming experience, providing a visually appealing way to celebrate success.
+
+## Testing
+
+- Testing Memoree's mechanics involved meticulous evaluation of the scoring system, ensuring accurate tracking and display of points.
+- Extensive testing was conducted on card matching and non-matching scenarios to guarantee the game's responsiveness and logical flow.
+- The popup message underwent thorough examination to ensure clarity and a user-friendly experience.
+- The restart button was rigorously tested to confirm its effectiveness in resetting the game while maintaining a seamless transition.
+
+### Media Query Responsiveness
+
+- With a maxmimum width of 400 pixels, the images intelligently adjust to a smaller size, optimizing visibility and playability.
+- For wider screens, specifically those with a minimum width of 770 pixels, the game layout dynamically reconfigures, displaying cards in four rows with three cards each. This adaptive approach ensures an engaging and visually appealing presentation, regardless of the user's device.
+
+### Validator Testing
+
+- HTML
+  - No errors or warnings were found when passing through the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexsunner.github.io%2Fmemoree%2F)
+- CSS
+  - No errors or warnings were found when passing through the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Falexsunner.github.io%2Fmemoree%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- JavaScript
+  - One warning was returned when testing the code in [JSHint](https://jshint.com/) JavaScript Line 33: Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (frontCard, card, gameArea, match). I am using an immediately invoked function expression (IIFE) inside a loop to create a new scope for each iteration, aiming to capture the current value of the loop variable. The scoping is being handled correctly, thus I can ignore the warning.
