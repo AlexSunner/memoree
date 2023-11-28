@@ -122,6 +122,10 @@ Cloning your repository will allow you to download a local version of the reposi
 
 - I used Codeanywhere as the code editor.
 
+### Balsamiq Wireframes
+
+- Balsamiq was used to create the wireframes.
+
 ### WC3 Markup Validation Service
 
 - Used to validate the entire HTML code that is being used in this project.
