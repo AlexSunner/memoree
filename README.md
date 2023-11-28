@@ -60,6 +60,13 @@ Here is a presentation of the different features added into Memoree.
 - JavaScript
   - One warning was returned when testing the code in [JSHint](https://jshint.com/) JavaScript Line 33: Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (frontCard, card, gameArea, match). I am using an immediately invoked function expression (IIFE) inside a loop to create a new scope for each iteration, aiming to capture the current value of the loop variable. The scoping is being handled correctly, thus I can ignore the warning.
 
+## User Stories
+
+1. As a parent, I want the game to feature kid-friendly card designs, ensuring a safe and engaging environment for my children.
+2. As a gamer, I anticipate a well-designed scoreboard with the additional instruction "Pick two cards and see if they match!" for clarity and guidance during gameplay.
+3. As a developer, I aim to test the game thoroughly to ensure flawless mechanics, including scoring, card matching, popup messages, and the restart button functionality.
+4. As a player, I want to experience a responsive and visually appealing memory game, allowing me to enjoy seamless gameplay on various devices.
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
