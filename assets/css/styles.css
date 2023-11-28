@@ -124,7 +124,7 @@ img {
     transform: rotateY(0deg);
 }
 
-/* Media query for responsiveness, also taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 */
+/* Media query for screen widths of 770px, also taken from https: //www.youtube.com/watch?v=7JbBr9q4UF8 */
 @media screen and (min-width:770px) {
     .heading {
         max-width: 760px;
